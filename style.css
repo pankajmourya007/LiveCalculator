@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-size: 15px;
+}
+header{
+  text-align: center;
+  margin: 10px 0px;
+  font-family: 'Fantasy', 'Monacof';
+  font-weight: 600;
+
+}
+p{
+  margin-top: 5px;
+  font-size:  17px;
+}
+#flex{
+  display: flex;
+}
+#answer{
+  margin-top: 0px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  height: 40px;
+  font-weight:700;
+  font-size: 13px;
+}
+#num1 , #num2{
+  height:70px;
+  width:110px;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 800;
+  color: #0c0c0b;
+}
+button{
+  width: 70px;
+  height:70px;
+  font-size: 20px;
+  font-weight: 800;
+  background: #1c4ba3;
+  color: #01010c;
+  border-radius:13px;
+  box-shadow: inset 0 5px 10px 0 rgb(216, 55, 55),inset 0 -5px 10px 3px #19d347,0 5px 10px 0px #2a076b;
+}
+
+main{
+  height:500px;
+  width:300px;
+  margin: 0px auto;
+  background: rgb(196, 72, 72);
+  padding-top: 15px;
+}
+#grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 0px 35px;
+}
+.single{
+  visibility: hidden;
+}
+.copy{
+  position:fixed;
+  bottom:0;
+  left: 0;
+  width:100%;
+  height: auto;
+  background:rgb(102, 164, 214);
+  text-align: center;
+  color: rgb(82, 1, 28);
+  font-family: 'Fantasy', 'Monaco';
+  padding: 10px 0px
+}

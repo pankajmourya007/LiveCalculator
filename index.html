@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Online Calculator</title>
+</head>
+
+<body>
+  <header>
+   <p>CALCULATOR</p>
+  </header>
+  <main>
+  <div id="calc">
+    <div id="topAns">
+      <input type="number" name="" id="answer" value="" placeholder="YOUR  ANSWER" disabled/>
+    <div/>
+    <div id="flex">
+      <input type="number" name="" id="num1" value="" placeholder="First"/>
+      <input type="number" name="" id="num2" value="" placeholder="Second"/>
+    </div>
+    
+    <div id="grid">
+      <button onclick="clearit()">AC</button>
+      <button class="single" onclick="sqroot()">√</button>
+      <button onclick="more()">more</button>
+      <button class="double" onclick="add()">+</button>
+      <button class="single" onclick="sin()">sin</button>
+      <button class="double" onclick="sub()">-</button>
+      <button class="single" onclick="cos()">cos</button>
+      <button class="double" class="btn" onclick="pow()">pow</button>
+      <button class="single" onclick="tan()">tan</button>
+      <button class="double" onclick="mul()">x</button>
+      <button class="single" onclick="log()">log</button>
+      <button class="double" onclick="div()">÷</button>
+    </div>
+    
+</div>
+
+  </main>
+  
+  <footer>
+    <div class="copy">
+      &copy; copyright @PankajMourya007 <br /> 
+      2022 | All rights reserved
+    </div>
+  </footer>
+  
+<script src="main.js"></script>
+</body>
+
+</html>
